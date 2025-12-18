@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.big-box {
+  margin: 150px 500px;
+  height: 300px;
+  width: 600px;
+  background-color: burlywood;
+}
+
+.home-images {
+  height: auto;
+  width: 150px;
+}
+
+.one,
+.two,
+.three {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  margin-top: 40px;
+  height: 200px;
+  width: auto;
+}
+
+.one {
+  margin-left: 50px;
+}
+
+.big-box h1, h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.small-box {
+  padding: 10px;
+}
